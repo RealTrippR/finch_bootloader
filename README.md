@@ -4,6 +4,9 @@ The Finch Bootloader is a compact 16-bit bootloader, designed as part of the Fin
 
 <hr>
 
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExejR4ejAxemRjbzNkODdnNTJlcmI1ZmRqbnZrdHM5bTR2ZjB5czZiayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mzUWKoNj71A4f8ZJzX/giphy.gif)
+
+
 **Usage**
 
 The Finch Bootloader reads the master boot record and will list any partition marked as bootable.
