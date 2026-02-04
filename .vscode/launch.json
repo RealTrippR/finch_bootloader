@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch QEMU RTOSDemo",
+            "name": "Launch QEMU",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/os.elf",
+            "program": "${workspaceFolder}/bin/finchldr.elf",
             "cwd": "${workspaceFolder}",
             "miDebuggerServerAddress": "localhost:1234",
 

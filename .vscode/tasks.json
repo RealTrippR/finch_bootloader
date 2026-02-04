@@ -4,7 +4,7 @@
         {
             "label": "StartQemu",
             "type": "shell",
-            "command": "echo 'QEMU started';  qemu-system-i386 -s -S bin/os.bin",
+            "command": "echo 'QEMU started';  qemu-system-i386 -s -S bin/finchldr.bin",
             "isBackground": true,
             "problemMatcher": [
             {
