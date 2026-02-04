@@ -1,0 +1,15 @@
+    <str>: <i8: length><content: bytes>
+---------------------------------------------------------
+<i8> mode: (1=8086 16bit, all other values are reserved!)
+<str - maxlen:12> name
+
+mode+14:
+in 8086 16bit:
+    <i16> kernel_size
+
+    <i16> load segment
+    <i16> load offset
+
+    <i16> entry segment
+    <i16> entry offset
+mode+24:
