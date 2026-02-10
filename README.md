@@ -16,3 +16,7 @@ The bootloader must be placed in the first two sectors on disk.
 For it to work, you will need to configure the MBR (offset 440 bytes from the binary) with a partition table.
 
 Note that the Finch Bootloader does not check for any overlapping or invalid partitions, nor does it validate if the selected partition number is correct.
+
+**Restrictions**
+- Cannot read over 64kb beyond given load segment
+- Cannot read along the 64kb boundaries imposed by the disk controller
